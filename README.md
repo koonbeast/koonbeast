@@ -39,7 +39,7 @@ I'm Steven Koon, a student at Brigham Young University-Idaho studying Cloud Comp
 
 ## Projects
 
-- [Front-End Development](https://koonbeast.github.io/koonbeast/ice/index.html)
+- [Front-End Development](https://koonbeast.github.io/koonbeast/fedp/index.html)
   - [Song Saver](https://koonbeast.github.io/wdd131/unnamed_final_project/): A web app for saving, tagging, and filtering songs (course final project)
   - [Nativity Advent Calendar](https://koonbeast.github.io/NativityAdventCalendar/): A 25-day advent calendar website with daily nativity readings and music, built for a client
   - [White Water Rafting Gym](https://koonbeast.github.io/WDD130/wrr/): A website for a fictional white water rafting gym, with sections for training, the river, and recovery
