@@ -3,146 +3,145 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Front-End Development Projects</title>
-    <style>
-        body {
-            background: rgb(32, 31, 31);
-        }
-
-        nav {
-            display: flex;
-            column-gap: 40px;
-        }
-
-        a {
-            text-decoration: none;
-            font-size: large;
-            color: rgb(207, 91, 236);
-        }
-
-        a:hover {
-            background: black;
-            color: aqua;
-        }
-
-        main {
-            display: block;
-            color: white;
-        }
-
-        section {
-            display: flex;
-            align-items: baseline;
-            gap: 2em;
-        }
-    </style>
+    <title>Front-End Development Projects | Steven Koon</title>
+    <meta name="description" content="Front-end projects by Steven Koon, including JavaScript apps from WDD 131 and HTML and CSS sites from WDD 130.">
+    <link rel="stylesheet" href="../styles/home.css">
 </head>
 <body>
-    <nav>
-        <a href="../index.html">Home</a>
-        <a href="prophets_cards/nelson.html">Prophet Cards</a>
-        <a href="apostle_spotlight/apostles.html">Apostle Spotlight</a>
-        <a href="favorite_devo/favdevo.html">Favorite Devotional</a>
-        <a href="valentines/index.html">Valentines</a>
-        <a href="grid_flags/flags.html">Grid Flags</a>
-        <a href="positioning/positioning.html">Positioning</a>
-        <a href="gallery/gallery.html">Gallery</a>
-        <a href="signup/signup.html">Signup</a>
-    </nav>
+    <a class="skip-link" href="#main">Skip to content</a>
 
-    <main>
-        <h1>Front-End Development Projects</h1>
+    <header class="site-header">
+        <nav class="nav container" aria-label="Main">
+            <a class="brand" href="../index.html">Steven Koon</a>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="#featured">Featured</a></li>
+                <li><a href="#javascript-projects">JavaScript</a></li>
+                <li><a href="#html-css-projects">HTML &amp; CSS</a></li>
+            </ul>
+        </nav>
+    </header>
 
-        <section>
-            <h3><a href="https://koonbeast.github.io/wdd131/unnamed_final_project/">Song Saver</a></h3>
-            <h1>-</h1>
-            <p>A web app for saving, tagging, and filtering songs (course final project)</p>
+    <main id="main">
+        <header class="hero container">
+            <p class="eyebrow">Project Index</p>
+            <h1>Front-End Development Projects</h1>
+            <p class="lead">A collection of course projects in HTML, CSS, and JavaScript, from interactive web apps to layout and form exercises.</p>
+        </header>
+
+        <section id="featured" class="section container" aria-labelledby="featured-title">
+            <h2 id="featured-title">Featured</h2>
+            <div class="grid">
+                <article class="card">
+                    <h3><a href="https://koonbeast.github.io/wdd131/unnamed_final_project/" target="_blank" rel="noopener noreferrer">Song Saver</a></h3>
+                    <p>A web app for saving, tagging, and filtering songs (course final project)</p>
+                    <p class="tags">HTML · CSS · JavaScript</p>
+                </article>
+                <article class="card">
+                    <h3><a href="https://koonbeast.github.io/NativityAdventCalendar/" target="_blank" rel="noopener noreferrer">Nativity Advent Calendar</a></h3>
+                    <p>A 25-day advent calendar website with daily nativity readings and music, built for a client</p>
+                    <p class="tags">HTML · CSS</p>
+                </article>
+                <article class="card">
+                    <h3><a href="https://koonbeast.github.io/WDD130/wrr/" target="_blank" rel="noopener noreferrer">White Water Rafting Gym</a></h3>
+                    <p>A website for a fictional white water rafting gym, with sections for training, the river, and recovery</p>
+                    <p class="tags">HTML · CSS · Responsive layout</p>
+                </article>
+            </div>
         </section>
 
-        <section>
-            <h3><a href="https://koonbeast.github.io/wdd131/recipes/">RecipeBook</a></h3>
-            <h1>-</h1>
-            <p>A searchable recipe collection built with Flexbox</p>
+        <section id="javascript-projects" class="section container" aria-labelledby="javascript-title">
+            <h2 id="javascript-title">JavaScript Projects (WDD131)</h2>
+            <div class="grid">
+                <article class="card">
+                    <h3><a href="https://koonbeast.github.io/wdd131/recipes/" target="_blank" rel="noopener noreferrer">RecipeBook</a></h3>
+                    <p>A searchable recipe collection built with Flexbox</p>
+                    <p class="tags">HTML · CSS · JavaScript · Flexbox</p>
+                </article>
+                <article class="card">
+                    <h3><a href="https://koonbeast.github.io/wdd131/coolpics/" target="_blank" rel="noopener noreferrer">Cool Pics</a></h3>
+                    <p>A responsive photo gallery with a mobile menu and modal image viewer</p>
+                    <p class="tags">HTML · CSS · JavaScript</p>
+                </article>
+                <article class="card">
+                    <h3><a href="https://koonbeast.github.io/wdd131/blog/" target="_blank" rel="noopener noreferrer">Kids Read For Fun</a></h3>
+                    <p>A children's book review blog</p>
+                    <p class="tags">HTML · CSS · JavaScript</p>
+                </article>
+                <article class="card">
+                    <h3><a href="https://koonbeast.github.io/wdd131/eventform/" target="_blank" rel="noopener noreferrer">Event Ticket</a></h3>
+                    <p>An event ticket form that collects attendee details and ticket type</p>
+                    <p class="tags">HTML · CSS · JavaScript · Forms</p>
+                </article>
+                <article class="card">
+                    <h3><a href="https://koonbeast.github.io/wdd131/charactercard/" target="_blank" rel="noopener noreferrer">Character Card</a></h3>
+                    <p>An interactive character card for Snortleblat, with attack and level-up actions</p>
+                    <p class="tags">HTML · CSS · JavaScript</p>
+                </article>
+                <article class="card">
+                    <h3><a href="https://koonbeast.github.io/wdd131/mission/" target="_blank" rel="noopener noreferrer">Mission Statement</a></h3>
+                    <p>The BYU-Idaho mission statement page, with a dark and light theme toggle</p>
+                    <p class="tags">HTML · CSS · JavaScript</p>
+                </article>
+            </div>
         </section>
 
-        <section>
-            <h3><a href="https://koonbeast.github.io/wdd131/coolpics/">Cool Pics</a></h3>
-            <h1>-</h1>
-            <p>A responsive photo gallery with a mobile menu and modal image viewer</p>
+        <section id="html-css-projects" class="section container" aria-labelledby="html-css-title">
+            <h2 id="html-css-title">HTML &amp; CSS Projects (WDD130)</h2>
+            <div class="grid">
+                <article class="card">
+                    <h3><a href="https://koonbeast.github.io/WDD130/wrr/site-plan-rafting.html" target="_blank" rel="noopener noreferrer">White Water Rafting Site Plan</a></h3>
+                    <p>The planning document for the rafting gym website</p>
+                    <p class="tags">Planning · HTML · CSS</p>
+                </article>
+                <article class="card">
+                    <h3><a href="grid_flags/flags.html">Grid Flags</a></h3>
+                    <p>Country flags built entirely with CSS Grid</p>
+                    <p class="tags">HTML · CSS Grid</p>
+                </article>
+                <article class="card">
+                    <h3><a href="positioning/positioning.html">Positioning</a></h3>
+                    <p>A layout exercise using CSS positioning, Grid, and Flexbox</p>
+                    <p class="tags">HTML · CSS · Grid · Flexbox</p>
+                </article>
+                <article class="card">
+                    <h3><a href="apostle_spotlight/apostles.html">Apostle Spotlight</a></h3>
+                    <p>A portrait layout of the First Presidency and the Twelve Apostles, with sized and centered images</p>
+                    <p class="tags">HTML · CSS</p>
+                </article>
+                <article class="card">
+                    <h3><a href="prophets_cards/nelson.html">Prophet Cards</a></h3>
+                    <p>A profile card for Russell M. Nelson with aligned content</p>
+                    <p class="tags">HTML · CSS</p>
+                </article>
+                <article class="card">
+                    <h3><a href="gallery/gallery.html">Christ Art Gallery</a></h3>
+                    <p>An image gallery of artwork of Christ</p>
+                    <p class="tags">HTML · CSS</p>
+                </article>
+                <article class="card">
+                    <h3><a href="signup/signup.html">Daily Feed Sign Up</a></h3>
+                    <p>A sign-up form page</p>
+                    <p class="tags">HTML · CSS · Forms</p>
+                </article>
+                <article class="card">
+                    <h3><a href="favorite_devo/favdevo.html">Favorite Devotionals</a></h3>
+                    <p>A table and form for listing favorite devotionals</p>
+                    <p class="tags">HTML · CSS · Forms</p>
+                </article>
+                <article class="card">
+                    <h3><a href="valentines/index.html">Valentines</a></h3>
+                    <p>A quick, creative Valentine's Day page built under a time limit</p>
+                    <p class="tags">HTML · CSS</p>
+                </article>
+            </div>
         </section>
-
-        <section>
-            <h3><a href="https://koonbeast.github.io/wdd131/blog/">Kids Read For Fun</a></h3>
-            <h1>-</h1>
-            <p>A children's book review blog</p>
-        </section>
-
-        <section>
-            <h3><a href="https://koonbeast.github.io/wdd131/eventform/">Event Ticket</a></h3>
-            <h1>-</h1>
-            <p>An event ticket form that collects attendee details and ticket type</p>
-        </section>
-
-        <section>
-            <h3><a href="https://koonbeast.github.io/wdd131/charactercard/">Character Card</a></h3>
-            <h1>-</h1>
-            <p>An interactive character card for Snortleblat, with attack and level-up actions</p>
-        </section>
-
-        <section>
-            <h3><a href="https://koonbeast.github.io/wdd131/mission/">Mission Statement</a></h3>
-            <h1>-</h1>
-            <p>The BYU-Idaho mission statement page, with a dark and light theme toggle</p>
-        </section>
-
-        <section>
-            <h3>Prophet Cards</h3>
-            <h1>-</h1>
-            <p>This is about making a sort of badge or card. I learned about aligning objects with each others.</p>
-        </section>
-
-        <section>
-            <h3>Apostle Spotlight</h3>
-            <h1>-</h1>
-            <p>This is about displaying the First Presedency and 12 apostles. I learned about making images the correct size, position, and how to center them where I want on display.</p>
-        </section>
-
-        <section>
-            <h3>Favorite Devotional</h3>
-            <h1>-</h1>
-            <p>A simple table exercise that would allow a list of entries. I learned some basic knowledge of making a table and form.</p>
-        </section>
-
-        <section>
-            <h3>Valentines</h3>
-            <h1>-</h1>
-            <p>A fast paced exercise. There was limited time, but the effort was to be creative in celebration of Valentines Day.</p>
-        </section>
-
-        <section>
-            <h3>Grid Flags</h3>
-            <h1>-</h1>
-            <p>This assignment was my favorite because I understand all I am doing. I am making great progress here as I continue forward.</p>
-        </section>
-
-        <section>
-            <h3>Positioning</h3>
-            <h1>-</h1>
-            <p>The use of positioning elements on a grid in CSS, also the use of a flex. Good practice, and I felt good about this because I understood how to do this well.</p>
-        </section>
-
-        <section>
-            <h3>Gallery</h3>
-            <h1>-</h1>
-            <p>Images were provided, and learned how to utilize third-party sources to adjust the images to be more viable for a webpage.</p>
-        </section>
-
-        <section>
-            <h3>Signup</h3>
-            <h1>-</h1>
-            <p>Creating another card, but I'm much more prepared this time. It was a real struggle knowing I had to use position relative because I had to keep adjusting everything. One still needs to be adjusted.</p>
-        </section>
-
     </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2026 Steven Koon</p>
+        </div>
+    </footer>
 </body>
 </html>
