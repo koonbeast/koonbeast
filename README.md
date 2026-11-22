@@ -37,20 +37,18 @@ I'm Steven Koon, a student at Brigham Young University-Idaho studying Cloud Comp
 - Proficient in: HTML, CSS, JavaScript, Git and GitHub, [Add: confirm or add others, e.g. Python, SQL] <!-- TODO: list only what you are comfortable being asked about in an interview -->
 - Skills: Linux and SQL fundamentals, AWS cloud concepts, VS Code, [Add: other tools, e.g. PowerShell, Windows, networking] <!-- TODO: confirm -->
 
-## Front-End Development Projects
-
-- [Song Saver](https://koonbeast.github.io/wdd131/unnamed_final_project/): A web app for saving, tagging, and filtering songs (course final project)
-- [Nativity Advent Calendar](https://koonbeast.github.io/NativityAdventCalendar/): A 25-day advent calendar website with daily nativity readings and music, built for a client
-- [White Water Rafting Gym](https://koonbeast.github.io/WDD130/wrr/): A website for a fictional white water rafting gym, with sections for training, the river, and recovery
-- [RecipeBook](https://koonbeast.github.io/wdd131/recipes/): A searchable recipe collection built with Flexbox
-- [Cool Pics](https://koonbeast.github.io/wdd131/coolpics/): A responsive photo gallery with a mobile menu and modal image viewer
-- [Kids Read For Fun](https://koonbeast.github.io/wdd131/blog/): A children's book review blog
-- [Event Ticket](https://koonbeast.github.io/wdd131/eventform/): An event ticket form that collects attendee details and ticket type
-- [Character Card](https://koonbeast.github.io/wdd131/charactercard/): An interactive character card for Snortleblat, with attack and level-up actions
-- [Mission Statement](https://koonbeast.github.io/wdd131/mission/): The BYU-Idaho mission statement page, with a dark and light theme toggle
-
 ## Projects
 
+- [Front-End Development](https://koonbeast.github.io/koonbeast/ice/index.html)
+  - [Song Saver](https://koonbeast.github.io/wdd131/unnamed_final_project/): A web app for saving, tagging, and filtering songs (course final project)
+  - [Nativity Advent Calendar](https://koonbeast.github.io/NativityAdventCalendar/): A 25-day advent calendar website with daily nativity readings and music, built for a client
+  - [White Water Rafting Gym](https://koonbeast.github.io/WDD130/wrr/): A website for a fictional white water rafting gym, with sections for training, the river, and recovery
+  - [RecipeBook](https://koonbeast.github.io/wdd131/recipes/): A searchable recipe collection built with Flexbox
+  - [Cool Pics](https://koonbeast.github.io/wdd131/coolpics/): A responsive photo gallery with a mobile menu and modal image viewer
+  - [Kids Read For Fun](https://koonbeast.github.io/wdd131/blog/): A children's book review blog
+  - [Event Ticket](https://koonbeast.github.io/wdd131/eventform/): An event ticket form that collects attendee details and ticket type
+  - [Character Card](https://koonbeast.github.io/wdd131/charactercard/): An interactive character card for Snortleblat, with attack and level-up actions
+  - [Mission Statement](https://koonbeast.github.io/wdd131/mission/): The BYU-Idaho mission statement page, with a dark and light theme toggle
 - [Portfolio site](https://koonbeast.github.io/koonbeast/): My personal landing page, hosted with GitHub Pages
 - [Add: cloud or systems administration project, with a link and one-line description] <!-- TODO: e.g. an AWS lab, a home lab, or a Linux or networking project -->
 
