@@ -33,7 +33,14 @@ I'm Steven Koon, a student at Brigham Young University-Idaho studying Cloud Comp
 ## Projects
 
 - [WDD130](https://github.com/koonbeast/WDD130): Web fundamentals coursework (HTML and CSS sites, including a multi-page site for a fictional rafting gym)
-- [wdd131](https://github.com/koonbeast/wdd131): Dynamic web fundamentals coursework using JavaScript
+- [wdd131](https://github.com/koonbeast/wdd131) ([live site](https://koonbeast.github.io/wdd131/)): Dynamic web fundamentals coursework using JavaScript
+  - [Mission Statement](https://koonbeast.github.io/wdd131/mission/): The BYU-Idaho mission statement page, with a dark and light theme toggle
+  - [Cool Pics](https://koonbeast.github.io/wdd131/coolpics/): A responsive photo gallery with a mobile menu and modal image viewer
+  - [Kids Read For Fun](https://koonbeast.github.io/wdd131/blog/): A children's book review blog
+  - [RecipeBook](https://koonbeast.github.io/wdd131/recipes/): A searchable recipe collection built with Flexbox
+  - [Character Card](https://koonbeast.github.io/wdd131/charactercard/): An interactive character card for Snortleblat, with attack and level-up actions
+  - [Event Ticket](https://koonbeast.github.io/wdd131/eventform/): An event ticket form that collects attendee details and ticket type
+  - [Song Saver](https://koonbeast.github.io/wdd131/unnamed_final_project/): A web app for saving, tagging, and filtering songs (course final project)
 - [Portfolio site](https://koonbeast.github.io/koonbeast/): My personal landing page, hosted with GitHub Pages
 - [Add: cloud or systems administration project, with a link and one-line description] <!-- TODO: e.g. an AWS lab, a home lab, or a Linux or networking project -->
 
