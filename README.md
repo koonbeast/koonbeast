@@ -12,6 +12,13 @@ I'm Steven Koon, a student at Brigham Young University-Idaho studying Cloud Comp
 - My goal is to become a Systems Administrator
 - Ask me about: [Add: topics you enjoy discussing] <!-- TODO: e.g. a class, a home lab, or a technology you like -->
 
+## Education
+
+- Bachelor of Science in Cloud Computing, Brigham Young University–Idaho (Rexburg, Idaho)
+- September 2025 – Present · In progress
+- GPA: 4.0
+- Coursework: introductions to Linux, SQL, AWS tools, programming, web development, and networking
+
 ## Technologies and Tools
 
 <div>
