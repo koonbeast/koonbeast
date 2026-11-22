@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: rgba(0, 255, 255, 0.26);
+}
+
+img {
+    width: 200%;
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: center 60%;
+}
+
+nav {
+    border: 3px solid #482191;
+    display: flex;
+    justify-content: space-around;
+    background-color: grey;
+    padding: 2em;
+    align-items:center;
+}
+
+nav img {
+    max-width: 20px;
+}
+
+nav a {
+    color: wheat;
+}
+
+main#index {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+section#blue h2, section#green h2, section#red h2 {
+    text-align: center;
+}
+
+section#blue p, section#green p, section#red p {
+    padding: .25em .5em;
+}
+
+a {
+    text-decoration: none;
+    color: #330e77;
+    transition: filter 0.25s ease;
+}
+
+a:hover {
+    filter: brightness(0.65);
+}
+
+section#blue {
+    background-color: lightblue;
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+section#red {
+    background-color: lightcoral;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+section#green {
+    background-color: lightgreen;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+section#table {
+        grid-column: 1/4;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+tr, th, td {
+    border: 1px solid black;
+    padding: 1em;
+}
+
+section#table a {
+    color: black;
+}
+
+section#table a:hover {
+    text-decoration: underline;
+}
+
+section#about {
+    grid-column: 1/4;
+}
+
+section#about img {
+    max-width: 10em;
+}
+
+footer {
+    margin-top: 1em;
+}
+
+section#aboutpage img {
+    max-width: 10em;
+}
+
+section#aboutpage {
+    display: grid;
+    grid-template-columns: 180px 1fr;
+}
+
+section#aboutpage h2 {
+    grid-area: 1 / 1 / 2 / 3;
+    text-align: center;
+}
+
+section#aboutpage p {
+    grid-column: 2;
+    padding: .25em 0;
+}
+
+section#aboutpage img {
+    grid-column: 1;
+    grid-row: 2 / 4;
+    padding-left: 1.5em;
+    aspect-ratio: 1 / 1;
+}
+
+label, input {
+    display: block;
+}
+
+input {
+    margin-bottom: .5em;
+}
+
+input#reason {
+    width: 300px;
+    height: 50px;
+}

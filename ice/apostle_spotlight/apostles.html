@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apostles Spotlights</title>
+    <style>
+        /* Insert styles here */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background: #E8ECED;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #card {
+            background-image: url(images/christus.webp);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            position: relative;
+
+            width: 100%;
+            max-width: 1200px;
+            margin: 2em auto;
+            border-radius: 16px;
+
+            overflow: hidden;
+        }
+
+        h1, h3 {
+            color: white;
+            text-align: center;
+        }
+
+        img {
+            width: clamp(80px, 18vmin, 180px);
+            border-radius: 50%;
+            display: border;
+            border: 8px solid white;
+            object-fit: cover;
+            aspect-ratio: 1 / 1;
+            object-position: center 40%;
+            margin: 2em;
+        }
+
+        .fp {
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: center;
+        }
+
+        .tp {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            justify-items: center;
+        }
+
+        .prophet {
+            transform: scale(1.2);
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Insert HTML elements here -->
+     <div id="card">
+        <h1>First Presidency</h1>
+        <section class="fp">
+            <img src="images/eyring.webp" alt="">
+            <img src="images/oaks.webp" alt="" class="prophet">
+            <img src="images/christofferson.webp" alt="">
+        </section>
+        <h3>Quorum of the Twelve Apostles</h3>
+        <section class="tp">
+            <img src="images/holland.webp" alt="">
+            <img src="images/uchtdorf.webp" alt="">
+            <img src="images/bednar.webp" alt="">
+            <img src="images/cook.webp" alt="">
+            <img src="images/anderson.webp" alt="">
+            <img src="images/rasband.webp" alt="">
+            <img src="images/stevenson.webp" alt="">
+            <img src="images/renlund.webp" alt="">
+            <img src="images/gong.webp" alt="">
+            <img src="images/soares.webp" alt="">
+            <img src="images/kearon.webp" alt="">
+            <img src="images/causse.webp" alt="">
+        </section>
+     </div>
+</body>
+</html>
