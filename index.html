@@ -3,140 +3,147 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Steven's Page WDD130</title>
-    <link rel="stylesheet" href="styles/style.css">
+    <title>Steven Koon | Cloud Computing Student &amp; Aspiring Systems Administrator</title>
+    <meta name="description" content="Portfolio of Steven Koon, Cloud Computing student at BYU-Idaho working toward a career as a Systems Administrator.">
+    <link rel="stylesheet" href="styles/home.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="index.html"><img src="images/simpleslogo.jpg" alt="s logo"></a>
-            <a href="wrr/index.html">White Water Rafting Website</a>
-            <a href="wrr/site-plan-rafting.html">White Water Rafting Siteplan</a>
-            <a href="ice/index.html">ICE</a>
-            <a href="client_report.html">Client Report</a>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+        <nav class="nav container" aria-label="Main">
+            <a class="brand" href="index.html">Steven Koon</a>
+            <ul>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </nav>
     </header>
 
-    <main id="index">
-
-        <section id="blue">
-            <a href="wrr/index.html">
-                <h2>White Water Rafting Gym</h2>
-                <img src="wrr/images/gym_card.jpg" alt="white water rafting gym">
-                <p>I created this site! Please see this if you're interested in what I was able to achieve.</p>
-            </a>
+    <main id="main">
+        <section class="hero container" aria-labelledby="hero-title">
+            <!-- TODO: Optional — add a professional headshot here, e.g. <img class="avatar" src="images/your-photo.jpg" alt="Steven Koon"> -->
+            <p class="eyebrow">Cloud Computing Student · BYU-Idaho</p>
+            <h1 id="hero-title">Steven Koon</h1>
+            <p class="title">Aspiring Systems Administrator</p>
+            <p class="lead">Driven to become a Systems Administrator, I seek hands-on opportunities that turn that goal into today's work.</p>
+            <!-- TODO: Add 1–2 sentences on what you bring (e.g. areas of focus, labs, or work experience). -->
+            <p class="placeholder">[Add: one or two sentences about your focus areas or experience]</p>
+            <div class="cta">
+                <a class="btn btn-primary" href="#projects">View projects</a>
+                <a class="btn" href="https://www.linkedin.com/in/steven-koon-cloud/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </div>
         </section>
 
-        <section id="green">
-            <a href="ice/index.html">
-                <h2>In Class Exercises</h2>
-                <img src="images/icesample.png" alt="in class exercises">
-                <p>This is commonly refered to as ICE. This is what I have achieved in practice under prompt.</p>
-            </a>
+        <section id="projects" class="section container" aria-labelledby="projects-title">
+            <h2 id="projects-title">Projects</h2>
+            <div class="grid">
+                <article class="card">
+                    <h3><a href="wrr/index.html">White Water Rafting Gym</a></h3>
+                    <p>A multi-page website for a fictional adventure gym, with a home page and contact page.</p>
+                    <p class="tags">HTML · CSS · Responsive layout</p>
+                </article>
+                <article class="card">
+                    <h3><a href="wrr/site-plan-rafting.html">Rafting Gym Site Plan</a></h3>
+                    <p>The planning document behind the rafting gym site: goals, audience, and structure.</p>
+                    <p class="tags">Planning · Information architecture</p>
+                </article>
+                <article class="card">
+                    <h3><a href="client_report.html">Client Website Report</a></h3>
+                    <p>A report on building a website for a real client as solo developer, from requirements to publishing on GitHub Pages.</p>
+                    <p class="tags">Client work · GitHub Pages</p>
+                </article>
+                <article class="card">
+                    <h3><a href="ice/index.html">Web Design Exercises</a></h3>
+                    <p>A collection of short exercises covering cards, image galleries, CSS Grid, positioning, tables, and forms.</p>
+                    <p class="tags">CSS Grid · Flexbox · Forms</p>
+                </article>
+                <!-- TODO: Add cloud / sysadmin projects as you build them (e.g. AWS labs, home lab, Linux or networking projects). -->
+                <article class="card card-placeholder">
+                    <h3>[Add: cloud or systems administration project]</h3>
+                    <p>[Add: what you built, the tools you used, and the result]</p>
+                </article>
+            </div>
         </section>
 
-        <section id="red">
-            <a href="https://www.byui.edu/">
-                <h2>Where I Go To School</h2>
-                <img src="images/byuischool.jpg" alt="b y u i campus">
-                <p>BYU-Idaho is my home now, and I hope to achieve my dreams here. It's where I need to be. This is a place to build success.</p>
-            </a>
+        <section id="skills" class="section container" aria-labelledby="skills-title">
+            <h2 id="skills-title">Skills</h2>
+            <div class="grid grid-3">
+                <div>
+                    <h3>Technical</h3>
+                    <ul class="chips">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Git &amp; GitHub</li>
+                        <li>GitHub Pages</li>
+                        <li>Linux (introductory)</li>
+                        <li>SQL (introductory)</li>
+                    </ul>
+                    <!-- TODO: Add other tools you have used (e.g. AWS services, Windows Server, PowerShell, networking). -->
+                    <p class="placeholder">[Add: other tools and technologies]</p>
+                </div>
+                <div>
+                    <h3>Currently learning</h3>
+                    <ul class="chips">
+                        <li>AWS Cloud fundamentals</li>
+                        <li>Networking</li>
+                    </ul>
+                    <!-- TODO: Confirm or adjust this list. -->
+                </div>
+                <div>
+                    <h3>Professional</h3>
+                    <ul class="chips">
+                        <li>Prioritization</li>
+                        <li>Training others</li>
+                        <li>Reliability</li>
+                        <li>Discretion</li>
+                    </ul>
+                    <!-- TODO: Adjust to match the durable skills on your résumé. -->
+                </div>
+            </div>
         </section>
 
-        <section id="table">
-            <h6>Interested Upcoming Events</h6>
-            <table>
-                <tr>
-                    <th>Date & Time</th>
-                    <th>Event Title</th>
-                    <th>Type / Category</th>
-                    <th>Location</th>
-                    <th>Spots / Cost</th>
-                    <th>Status / RSVP</th>
-                    <th>Link / Details</th>
-                </tr>
-                <tr>
-                    <td>Feb 17, 2026 7:00 PM</td>
-                    <td>Country Swing Dance Night</td>
-                    <td>Dancing / Social</td>
-                    <td>The Farm, Garden City</td>
-                    <td>$10 entry</td>
-                    <td>Open</td>
-                    <td><a href="#">Join us for lessons!</a></td>
-                </tr>
-                <tr>
-                    <td>Feb 18, 2026 6:30 PM</td>
-                    <td>Boise State Broncos Women's Basketball</td>
-                    <td>Sports / Spectator</td>
-                    <td>ExtraMile Arena</td>
-                    <td>Tickets from $15</td>
-                    <td>Tickets available</td>
-                    <td><a href="#">Cheer on the team</a></td>
-                </tr>
-                <tr>
-                    <td>Feb 20–22, 2026 Weekend</td>
-                    <td>Fire & Ice Winterfest</td>
-                    <td>Festival / Outdoor</td>
-                    <td>Indian Creek Plaza (nearby)</td>
-                    <td>Free entry + activities</td>
-                    <td>Ongoing sign-ups</td>
-                    <td><a href="#">Bonfires, ice games</a></td>
-                </tr>
-                <tr>
-                    <td>Feb 21, 2026 8:00 PM</td>
-                    <td>Live Music: The Kitchen Dwellers</td>
-                    <td>Concert / Live</td>
-                    <td>Boise venue (TBD)</td>
-                    <td>$20–30</td>
-                    <td>On sale now</td>
-                    <td><a href="#">Bluegrass vibes</a></td>
-                </tr>
-                <tr>
-                    <td>Feb 22, 2026 All Day</td>
-                    <td>Bogus Basin Ski Day (Weekend Trip)</td>
-                    <td>Outdoor / Adventure</td>
-                    <td>Bogus Basin</td>
-                    <td>Lift tickets vary</td>
-                    <td>Group outing?</td>
-                    <td><a href="#">Snow fun near Boise</a></td>
-                </tr>
-                <tr>
-                    <td>Feb 25, 2026 Evening</td>
-                    <td>Trivia Night at Local Brewery</td>
-                    <td>Games / Social</td>
-                    <td>Downtown Boise</td>
-                    <td>Free / teams</td>
-                    <td>Drop-in welcome</td>
-                    <td><a href="#">Win prizes!</a></td>
-                </tr>
-                <tr>
-                    <td>Mar 1, 2026</td>
-                    <td>Paint and Pinot at Zoo Boise</td>
-                    <td>Creative / Relaxed</td>
-                    <td>Zoo Boise</td>
-                    <td>16+ only, $35</td>
-                    <td>Pre-register</td>
-                    <td><a href="#">Animals + art + virgin wine</a></td>
-                </tr>
-            </table>
+        <section id="education" class="section container" aria-labelledby="education-title">
+            <h2 id="education-title">Education</h2>
+            <article class="entry">
+                <div>
+                    <h3>Brigham Young University–Idaho</h3>
+                    <!-- TODO: Use the exact degree title from your degree audit, e.g. "Bachelor of Science in [Major]". -->
+                    <p>[Add: degree title from your degree audit] · Cloud Computing</p>
+                </div>
+                <!-- TODO: Add expected graduation date. -->
+                <p class="meta">[Add: expected graduation]</p>
+            </article>
         </section>
 
-        <section id="about">
-            <a href="aboutme.html">
-                <h2>
-                    Steven Koon Page WDD130 and About Me
-                </h2>
-                <img src="images/profile.jpg" width="300" height="auto" alt="Steven Koon's profile photo">
-                <p>
-                    My name is Steven Koon, and this is my portal page...
-            </a>
+        <section id="certifications" class="section container" aria-labelledby="certs-title">
+            <h2 id="certs-title">Certifications</h2>
+            <article class="entry">
+                <div>
+                    <h3>AWS Certified Cloud Practitioner (CLF-C02)</h3>
+                    <p>Amazon Web Services</p>
+                </div>
+                <p class="meta"><span class="badge">In progress</span></p>
+            </article>
+            <!-- TODO: Update to "Earned" with the date and a Credly link once you pass. Add other certifications as you earn them. -->
         </section>
 
-
+        <section id="contact" class="section container" aria-labelledby="contact-title">
+            <h2 id="contact-title">Contact</h2>
+            <p>The best way to reach me is through LinkedIn.</p>
+            <ul class="links">
+                <li><a href="https://www.linkedin.com/in/steven-koon-cloud/" target="_blank" rel="noopener noreferrer">LinkedIn: steven-koon-cloud</a></li>
+                <li><a href="https://github.com/koonbeast" target="_blank" rel="noopener noreferrer">GitHub: koonbeast</a></li>
+            </ul>
+        </section>
     </main>
 
-    <footer>
-        &copy; 2026 Steven Koon
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2026 Steven Koon</p>
+        </div>
     </footer>
 </body>
 </html>
