@@ -49,6 +49,15 @@ I'm Steven Koon, a student at Brigham Young University-Idaho studying Cloud Comp
   - [Event Ticket](https://koonbeast.github.io/wdd131/eventform/): An event ticket form that collects attendee details and ticket type
   - [Character Card](https://koonbeast.github.io/wdd131/charactercard/): An interactive character card for Snortleblat, with attack and level-up actions
   - [Mission Statement](https://koonbeast.github.io/wdd131/mission/): The BYU-Idaho mission statement page, with a dark and light theme toggle
+  - [White Water Rafting Site Plan](https://koonbeast.github.io/WDD130/wrr/site-plan-rafting.html): The planning document for the rafting gym website
+  - [Grid Flags](https://koonbeast.github.io/WDD130/ice/grid_flags/flags.html): Country flags built entirely with CSS Grid
+  - [Positioning](https://koonbeast.github.io/WDD130/ice/positioning/positioning.html): A layout exercise using CSS positioning, Grid, and Flexbox
+  - [Apostle Spotlight](https://koonbeast.github.io/WDD130/ice/apostle_spotlight/apostles.html): A portrait layout of the First Presidency and the Twelve Apostles, with sized and centered images
+  - [Prophet Cards](https://koonbeast.github.io/WDD130/ice/prophets_cards/nelson.html): A profile card for Russell M. Nelson with aligned content
+  - [Christ Art Gallery](https://koonbeast.github.io/WDD130/ice/gallery/gallery.html): An image gallery of artwork of Christ
+  - [Daily Feed Sign Up](https://koonbeast.github.io/WDD130/ice/signup/signup.html): A sign-up form page
+  - [Favorite Devotionals](https://koonbeast.github.io/WDD130/ice/favorite_devo/favdevo.html): A table and form for listing favorite devotionals
+  - [Valentines](https://koonbeast.github.io/WDD130/ice/valentines/index.html): A quick, creative Valentine's Day page built under a time limit
 - [Portfolio site](https://koonbeast.github.io/koonbeast/): My personal landing page, hosted with GitHub Pages
 - [Add: cloud or systems administration project, with a link and one-line description] <!-- TODO: e.g. an AWS lab, a home lab, or a Linux or networking project -->
 
